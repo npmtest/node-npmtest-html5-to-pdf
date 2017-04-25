@@ -1,6 +1,6 @@
 # npmtest-html5-to-pdf
 
-#### basic test coverage for  [html5-to-pdf (v2.2.1)](https://github.com/peterdemartini/html5-to-pdf)  [![npm package](https://img.shields.io/npm/v/npmtest-html5-to-pdf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-html5-to-pdf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-html5-to-pdf.svg)](https://travis-ci.org/npmtest/node-npmtest-html5-to-pdf)
+#### basic test coverage for  [html5-to-pdf (v2.2.2)](https://github.com/peterdemartini/html5-to-pdf)  [![npm package](https://img.shields.io/npm/v/npmtest-html5-to-pdf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-html5-to-pdf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-html5-to-pdf.svg)](https://travis-ci.org/npmtest/node-npmtest-html5-to-pdf)
 
 #### HTML5 to PDF converter
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-html5-to-pdf/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-html5-to-pdf/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-html5-to-pdf/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-html5-to-pdf/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-html5-to-pdf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-html5-to-pdf/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-html5-to-pdf/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-html5-to-pdf/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-html5-to-pdf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-html5-to-pdf/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-html5-to-pdf/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-html5-to-pdf/build/coverage.html/index.html)
 
@@ -45,12 +45,12 @@
         "url": "https://github.com/peterdemartini/html5-to-pdf/issues"
     },
     "dependencies": {
-        "coffee-script": "^1.12.4",
+        "coffee-script": "^1.12.5",
         "colors": "^1.1.2",
         "commander": "^2.8.1",
-        "debug": "^2.6.1",
-        "express": "^4.14.1",
-        "fs-extra": "^2.0.0",
+        "debug": "^2.6.4",
+        "express": "^4.15.2",
+        "fs-extra": "^2.1.2",
         "lodash": "^4.17.4",
         "nightmare": "^2.10.0",
         "server-destroy": "^1.0.1",
@@ -59,16 +59,16 @@
     "description": "HTML5 to PDF converter",
     "devDependencies": {
         "chai": "^3.0.0",
-        "mocha": "^3.2.0",
-        "sinon": "^1.17.7",
-        "sinon-chai": "^2.8.0"
+        "mocha": "^3.3.0",
+        "sinon": "^2.1.0",
+        "sinon-chai": "^2.9.0"
     },
     "directories": {},
     "dist": {
-        "shasum": "5ba57ed5b6ca91826c9a00c17104a54c73719d53",
-        "tarball": "https://registry.npmjs.org/html5-to-pdf/-/html5-to-pdf-2.2.1.tgz"
+        "shasum": "9161293450c0bd136d02112489eecb62da5b24cd",
+        "tarball": "https://registry.npmjs.org/html5-to-pdf/-/html5-to-pdf-2.2.2.tgz"
     },
-    "gitHead": "51239bb3d406ca75863cf8b406c96ecf7164c929",
+    "gitHead": "3c6f53ef4dbac22bdf222509a6297851f5682e88",
     "homepage": "https://github.com/peterdemartini/html5-to-pdf",
     "keywords": [
         "html5",
@@ -99,7 +99,7 @@
         "start": "node index.js",
         "test": "mocha"
     },
-    "version": "2.2.1"
+    "version": "2.2.2"
 }
 ```
 
